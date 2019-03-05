@@ -1,0 +1,12 @@
+import hashlib
+def hashing_method(passwd_hash):
+    hash1 = hashlib.md5(passwd_hash)
+    print 'your hashed password is: ',hash1.hexdigest()
+
+def main():
+    print 'password hashing scripts'
+    passwd_hash = raw_input('Enter your password: ')
+    hashing_method(passwd_hash)
+
+if __name__ == '__main__':
+    main()
