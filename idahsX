@@ -1,0 +1,20 @@
+import string
+ftqyuucr = input("presiona la palabra->> ")
+gndcv = string.ascii_letters+string.digits #string.whitespace 
+tgyupc = ""
+while len(ftqyuucr) > 0: 
+    for pos in range(len(gndcv)): 
+        if gndcv[pos] == ftqyuucr[-1]: 
+            vpgncxkwsG = str(gndcv[pos+2]) 
+    tgyupc = tgyupc + vpgncxkwsG 
+    ftqyuucr = ftqyuucr[:-1] 
+print(tgyupc)
+gutgxgt = input("Introduzca la cadena->> ")
+qyvvtgyupc = ""
+while len(gutgxgt) > 0:
+    for pos in range(len(gndcv)):
+        if gndcv[pos] == gutgxgt[-1]:
+            vpgncxkwsG = str(gndcv[pos-2])
+    qyvvtgyupc = qyvvtgyupc + vpgncxkwsG
+    gutgxgt = gutgxgt[:-1]
+print(qyvvtgyupc) 
